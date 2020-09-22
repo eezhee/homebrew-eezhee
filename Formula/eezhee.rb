@@ -7,8 +7,8 @@ class Eezhee < Formula
   bottle :unneeded
 
   # note, user needs to `brew tap alexellis/alexellis`
-  depends_on alexellis/alexellis/k3sup: ["0.9+"]
-  depends_on alexellis/alexellis/arkade: ["0.6+"]
+  depends_on "alexellis/alexellis/k3sup" 
+  depends_on "alexellis/alexellis/arkade"
 
   def install
       bin.install "eezhee-darwin" => "eezhee"
