@@ -1,16 +1,12 @@
 class Eezhee < Formula
   desc "Install Eezhee CLIs"
   homepage "http://github.com/eezhee/eezhee"
-  url "https://github.com/eezhee/eezhee/releases/download/0.1.1/eezhee.sh"
-  sha256 "92ddad06507a9899ddc0b499a0bb80f4e2dccc290cb82cdd1918329b42150148"
-  version "0.1.1"
+  url "https://github.com/eezhee/eezhee/releases/download/v0.2.5/eezhee"
+  sha256 "3bb99cd0298d8562a9b229086f2f3e70ff0d787da8ef3522553eb6f1ea72abd7"
+  version "0.2.5"
   bottle :unneeded
 
-  # note, user needs to `brew tap alexellis/alexellis`
-  depends_on "alexellis/alexellis/k3sup" 
-  depends_on "alexellis/alexellis/arkade"
-
   def install
-      bin.install "eezhee-darwin" => "eezhee"
+      bin.install "eezhee" => "eezhee"
   end
 end
