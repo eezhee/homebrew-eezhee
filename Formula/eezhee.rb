@@ -1,9 +1,9 @@
 class Eezhee < Formula
   desc "Install Eezhee CLIs"
   homepage "http://github.com/eezhee/eezhee"
-  url "https://github.com/eezhee/eezhee/releases/download/v0.2.5/eezhee"
-  sha256 "3bb99cd0298d8562a9b229086f2f3e70ff0d787da8ef3522553eb6f1ea72abd7"
-  version "0.2.5"
+  url "https://github.com/eezhee/eezhee/releases/download/v0.2.6/eezhee"
+  sha256 "613ce1ade0486ef8393eb731049c8d68463136ff0bf379e35c161b4630ae7340"
+  version "0.2.6"
   bottle :unneeded
 
   def install
