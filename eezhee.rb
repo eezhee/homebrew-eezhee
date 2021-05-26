@@ -5,21 +5,21 @@
 class Eezhee < Formula
   desc "The easiest and fastest way to create a kubernutes cluster on a variety of clouds"
   homepage "https://github.com/eezhee/eezhee"
-  version "0.2.9"
+  version "0.2.10"
   license "Apache 2.0"
   bottle :unneeded
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/eezhee/eezhee/releases/download/v0.2.9/eezhee_0.2.9_Darwin_x86_64.tar.gz"
-    sha256 "d6134f7417ad1f83926244a2d58087e9b6921ca16f68ab0ed44c1f21661effcb"
+    url "https://github.com/eezhee/eezhee/releases/download/v0.2.10/eezhee_0.2.10_Darwin_x86_64.tar.gz"
+    sha256 "5c29446d1dd3263664a29506bd4faff5af5aee3255890a10aeae04eb57b75692"
   end
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/eezhee/eezhee/releases/download/v0.2.9/eezhee_0.2.9_Darwin_arm64.tar.gz"
-    sha256 "9e52d0b8996929ae4c067c7d5bfaca2139f0f30285c04361b6a6db0e8386d6b8"
+    url "https://github.com/eezhee/eezhee/releases/download/v0.2.10/eezhee_0.2.10_Darwin_arm64.tar.gz"
+    sha256 "f3849725a4f034455127240a221c71b94db5813d1bc21fc438bcc26c4e5a9365"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/eezhee/eezhee/releases/download/v0.2.9/eezhee_0.2.9_Linux_x86_64.tar.gz"
-    sha256 "73eade481ab2cc5681084d6dbfb9a3eb9a0f82e9a149c9b2dca79c4030559f9b"
+    url "https://github.com/eezhee/eezhee/releases/download/v0.2.10/eezhee_0.2.10_Linux_x86_64.tar.gz"
+    sha256 "bfdd494aab7153f7634e172a66660e43060e1fe5959b64472537409c150cd349"
   end
 
   def install
