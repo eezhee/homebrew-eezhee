@@ -7,7 +7,6 @@ class Eezhee < Formula
   homepage "https://github.com/eezhee/eezhee"
   version "0.2.10"
   license "Apache 2.0"
-  bottle :unneeded
 
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/eezhee/eezhee/releases/download/v0.2.10/eezhee_0.2.10_Darwin_x86_64.tar.gz"
